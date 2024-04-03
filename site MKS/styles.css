@@ -1,9 +1,30 @@
-nav{
-    text-align: right;
+body{
+    background-image: url(imagens/renderizacao-psd-3d-do-plano_460336-2244.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
     
 }
-a{
+nav{
     
-    width: 20px;
-    height:20px;
+    min-width: 100%;
+    
+}
+a img {
+    
+    width: 50px;
+    height:50px;
     }
+#projetos{
+    
+    
+}
+header{
+    width: 100%;
+    
+    
+}
+main{
+    text-align: center;
+}
