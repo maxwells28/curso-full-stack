@@ -11,8 +11,10 @@ body{
   
    
 }
-img{    
+img{
+   
     margin: 1%;
+    
    
 }
 nav{
@@ -54,6 +56,7 @@ h3{
 p{
     font-size: 16px;
     
+    
 }
 footer{
     text-align: center;
@@ -62,4 +65,12 @@ footer{
 #rodape{
     margin-left: 50px;
 }
+.borda{
+    border: 10px solid rgb(206, 202, 202); 
+   
+    
+    
+}
+
+
 
