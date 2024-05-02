@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando elementos flutuantes</title>
+    <style>
+        .principal{
+            background-color: gray;
+            width: 980px;
+            
+        }
+        .noticias{
+            background-color: aliceblue;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            padding: 10px;
+        }
+        .clear{
+            clear: both;
+        }
+        .imagensnoticias{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="imagensnoticias">
+        <div>
+            <img src="imagens.noticias.elementos/imagem1.png" alt="">
+
+        </div>
+
+        <div>
+            <img src="imagens.noticias.elementos/imagem2.png" alt="">
+
+        </div>
+
+        <div>
+            <img src="imagens.noticias.elementos/imagem3.png" alt="">
+
+        </div>
+        <div class="clear"></div>
+        
+    </div>
+    <div class="principal">
+       
+       
+       
+       <div class="noticias">
+          
+            <p>1Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ipsa adipisci veritatis </p>
+            <a href="">ver mais..</a>
+         
+        </div>
+       
+       
+        <div class="noticias">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ipsa adipisci veritatis </p>
+            <a href="">ver mais..</a>
+
+        </div>
+        <div class="noticias">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ipsa adipisci veritatis </p>
+            <a href="">ver mais..</a>
+
+        </div>
+        <div class="clear">
+
+        </div>
+    </div>
+</body>
+</html>
