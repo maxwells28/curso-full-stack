@@ -1,10 +1,50 @@
+body{
+    background-color: rgba(226, 223, 223, 0.938);
+}
+
 header{
     background-color: rgb(219, 166, 18);
     text-align: center;
 }
-#menuh{
-    display: flex;    
-    position: relative;
-    left: 50px;
+#menuh{    
+    
+    
+    
+    
     
 }
+.subtitulo{
+    background-color: rgb(228, 221, 221);
+}
+
+.bloco1{    
+    width: 500px;
+    margin: 5px;
+    float: left;
+    position: relative;
+    left: 70px;
+    background-color: white;
+    
+    
+
+    
+    
+}
+.limpar{
+    clear: both;
+}
+.bloco2{
+    width: 200px;
+    margin: 0%;
+    padding: 5px;
+    float: right;
+    position: relative;
+    right: 115px;
+    background-color: white;
+    
+    
+
+    
+}
+
+
