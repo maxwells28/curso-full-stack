@@ -7,23 +7,26 @@ header{
     text-align: center;
 }
 #menuh{    
-    
+    color: yellow;
     
     
     
     
 }
 .subtitulo{
-    background-color: rgb(228, 221, 221);
+    background-color: rgba(167, 164, 164, 0.801);
+    font-size: 25px;
+    color: rgb(68, 67, 67);
 }
 
 .bloco1{    
-    width: 500px;
-    margin: 5px;
+    width: 650px;    
+    padding: 10px;
     float: left;
     position: relative;
-    left: 70px;
+    left: 185px;
     background-color: white;
+    
     
     
 
@@ -34,17 +37,47 @@ header{
     clear: both;
 }
 .bloco2{
-    width: 200px;
+    width: 255px;
     margin: 0%;
     padding: 5px;
     float: right;
     position: relative;
-    right: 115px;
+    right: 180px;
     background-color: white;
     
     
 
     
+}
+.postagens{
+   margin-bottom: 5px;   
+   width: 255px;
+   margin: 0%;
+   padding: 5px;
+   float: right;
+   position: relative;
+   right: 180px;
+   background-color: white;
+
+}
+.Categorias{       
+    width: 255px;
+    margin: 0%;
+    padding: 5px;
+    float: right;
+    position: relative;
+    right: 180px;
+    top: -380px;
+    background-color: white;
+}
+
+#leiamais{
+    color: rgb(214, 214, 37);
+    text-decoration: none;
+   
+}
+.psemmargem{
+    margin-bottom: 0px;
 }
 
 
