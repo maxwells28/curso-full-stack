@@ -3,16 +3,41 @@ body{
 }
 
 header{
-    background-color: rgb(219, 166, 18);
+    background-color: rgb(255, 196, 0);
     text-align: center;
-}
-#menuh{    
-    color: yellow;
-    
-    
-    
+    padding-top: 5px;
+    padding-bottom: 20px;    
+    font-size: 23px;
     
 }
+#metadebranco{
+    color: aliceblue;
+}
+
+.menuprincipal{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}   
+
+.menuprincipal li a {
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    
+}   
+.menuprincipal li a:hover{
+    background-color: white;
+    color: rgba(243, 201, 12, 0.959);
+    
+}
+
 .subtitulo{
     background-color: rgba(167, 164, 164, 0.801);
     font-size: 25px;
@@ -22,6 +47,7 @@ header{
 .bloco1{    
     width: 650px;    
     padding: 10px;
+    margin-top: 20px;
     float: left;
     position: relative;
     left: 185px;
@@ -50,10 +76,9 @@ header{
     
 }
 .postagens{
-   margin-bottom: 5px;   
-   width: 255px;
-   margin: 0%;
-   padding: 5px;
+   padding: 5px;   
+   width: 255px;   
+   margin-top: 20px;
    float: right;
    position: relative;
    right: 180px;
@@ -62,20 +87,22 @@ header{
 }
 .Categorias{       
     width: 255px;
-    margin: 0%;
+    margin-top: -25px;
     padding: 5px;
     float: right;
     position: relative;
     right: 180px;
     top: -380px;
     background-color: white;
+    
 }
 
-#leiamais{
-    color: rgb(214, 214, 37);
-    text-decoration: none;
-   
+.menucategorias{
+    list-style-type: none;
+    
 }
+   
+
 .psemmargem{
     margin-bottom: 0px;
 }
