@@ -1,9 +1,9 @@
 body{
-    background-color: rgba(226, 223, 223, 0.938);
+    background-color: rgba(247, 243, 243, 0.938);
 }
 
 header{
-    background-color: rgb(255, 196, 0);
+    background-color: rgba(243, 201, 12, 0.959); ;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 20px;    
@@ -37,11 +37,24 @@ header{
     color: rgba(243, 201, 12, 0.959);
     
 }
+.titulo{
+    color: rgba(243, 201, 12, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+    font-size: 25px;
+    font-weight: bold;
+}
 
 .subtitulo{
     background-color: rgba(167, 164, 164, 0.801);
     font-size: 25px;
     color: rgb(68, 67, 67);
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .bloco1{    
@@ -85,6 +98,7 @@ header{
    background-color: white;
 
 }
+
 .Categorias{       
     width: 255px;
     margin-top: -25px;
@@ -95,10 +109,18 @@ header{
     top: -380px;
     background-color: white;
     
+    
 }
 
-.menucategorias{
-    list-style-type: none;
+
+.menucategorias li{
+    list-style: none;
+}
+
+.menucategorias li a{
+    font-size: 18px;
+    color: rgba(243, 201, 12, 0.959);
+    
     
 }
    
@@ -106,5 +128,28 @@ header{
 .psemmargem{
     margin-bottom: 0px;
 }
-
+.bloco3{    
+    width: 650px;    
+    padding: 10px;
+    margin-top: -100px;
+    float: left;
+    position: relative;
+    left: 185px;
+    background-color: white;
+}
+.leiamais{
+    background-color: white;
+    color: rgba(243, 201, 12, 0.959);
+        
+}
+footer{
+   
+    background-color: rgba(204, 201, 201, 0.938);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 185px;
+    padding: 3px;
+}
 
