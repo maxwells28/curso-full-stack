@@ -14,16 +14,35 @@ nav{
     min-width: 100%;
     
 }
-
-a img {
-    
-    width: 50px;
-    height:50px;
-    }
-#projetos{
+.novo{
     
     
 }
+
+ ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;          
+    }
+  ul a{  
+     width: 200px;
+     height: 40px;
+     display: block;    
+     color: black;  
+     text-decoration: none;
+     text-indent: 40px;
+     line-height: 40px;
+     background: url(imagens/menu.png) no-repeat left bottom;
+                 
+ }
+ a:hover{
+     background-position: right bottom;
+     color: white;
+ }
+
+
+
+
 header{
     width: 100%;
     
@@ -34,19 +53,11 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-li{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+
 .texto-centro{
     text-align: center;
 }
 .texto-azul{
     color: blue;
-}
-.menu{
-    font-size: 15px;
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
 }
