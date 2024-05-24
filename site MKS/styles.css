@@ -1,38 +1,74 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.5em;
     background-image: url(imagens/renderizacao-psd-3d-do-plano_460336-2244.avif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 0px;
     padding: 0px;
+    min-width: 467px; 
     
-}
-nav{
-    font-size: 15px;
-    min-width: 100%;
     
-}
-.novo{
     
     
 }
 
- ul{
-    margin: 0px;
-    padding: 0px;
+#imagemcabeçalio img{
+    border: 1px solid black;
+    width: 100%;
+    
+     
+    margin-bottom: -6px;
+    height: 200px;
+    
+}
+nav{
+    font-size: 15px; 
+    text-align: center;   
+    
+    
+     
+    
+}
+#seção-principal{                
+    padding: 50px;
+    
+}
+#menu{
+   width: auto;
+   text-align: center;
+}
+
+ #menu ul{       
     list-style-type: none;          
+    display: flex;
+    
+    margin: 0px;
+    padding: 0px;     
+    max-width: 467px;    
+    text-align: center;    
+    }
+
+    li{
+         
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    
     }
   ul a{  
-     width: 200px;
+     padding: 5px;
      height: 40px;
-     display: block;    
+     display: block;  
      color: black;  
      text-decoration: none;
      text-indent: 40px;
      line-height: 40px;
      background: url(imagens/menu.png) no-repeat left bottom;
+     text-align: center;
+     
+     
                  
  }
  a:hover{
@@ -43,13 +79,9 @@ nav{
 
 
 
-header{
-    width: 100%;
-    
-    
-}
+
 main{
-    margin-left: 50px;
+    
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -57,7 +89,12 @@ main{
 
 .texto-centro{
     text-align: center;
+    
 }
 .texto-azul{
     color: blue;
+    font-size: 1.2em;
+}
+li{
+    font-size: 0.7em;
 }
