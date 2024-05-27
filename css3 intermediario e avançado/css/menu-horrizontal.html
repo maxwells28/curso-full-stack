@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de navegação horrizontal</title>
+    <style>
+        ul{            
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 720px;
+            background: #159cb0 url(../imag-menu-horrizontal/fundo-horizontal.png) repeat-x;
+            float: left;                       
+        }
+        ul li{
+            float: left;
+        }
+        ul a{
+            display: block;
+            padding: 0 2em;
+            line-height: 2em ;
+            text-decoration: none;
+            color: #fff;
+            background: url(../imag-menu-horrizontal/divisor.png) repeat-y; 
+        }
+        ul .primeiro a{
+            background: none;
+        }
+        ul a:hover{
+            color: black;
+            background: #085662 ;
+        }
+        #home #navegacao .home a,
+        #sobre #navegacao .sobre a,
+        #servicos #navegacao .servicos a{
+            color: black;
+            background: #085662 ;
+        }
+    </style>
+</head>
+<body id="home">
+    <h1>Home</h1>
+    <header>
+        <nav>
+            <ul id="navegação">
+                <li class="home primeiro"><a href="index.html">Home</a></li>
+                <li class="sobre"><a href="#">Sobre</a></li>
+                <li class="servicos"><a href="#">Serviços</a></li>
+                <li class="noticias"><a href="#">Notícias</a></li>
+                <li class="contatos"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
