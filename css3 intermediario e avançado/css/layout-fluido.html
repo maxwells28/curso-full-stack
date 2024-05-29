@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fluido</title>
+    <style>
+        body{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        #marca{
+
+            border: 1px solid red;
+            width: 1200px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        #menu-vertical{
+
+            border: 1px solid rgb(17, 0, 255);
+            display: flex;
+            float: left;
+            margin-top: 5px;
+            margin-right: 5px;
+            width: 200px;
+            height: 250px;
+            
+            
+        }
+
+        #noticias{
+            
+            border: 1px solid rgb(255, 0, 212);
+            display: flex;
+            width: 700px;
+            margin-top: 5px;
+            
+            
+            
+            
+            
+        }
+       
+
+        #sub-noticias{
+
+            border: 1px solid rgb(255, 136, 0);
+            display: flex;
+            float: right;
+            width: 250px;
+            height: 250px;
+            margin-top: -124px;
+            
+            
+            
+        }
+        footer{
+            border: 1px solid rgb(0, 255, 200);
+            text-align: center;
+            clear: both;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div id="marca">
+            <h1>Marca</h1>
+        </div>
+    </header>
+    <div id="menu-vertical">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div id="noticias">
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nemo in incidunt aliquid sed distinctio nulla. Temporibus tenetur, placeat minus dolore officia itaque doloremque reprehenderit necessitatibus, a illo, corrupti quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quos perspiciatis adipisci mollitia aliquam nobis. Dignissimos eaque dolore commodi, ratione eligendi iusto. Error odio aspernatur est exercitationem quod iure quasi!</p>
+        </section>
+    </div>
+    
+    <div id="sub-noticias">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt minus aliquam magni est voluptatum accusamus. Soluta, omnis distinctio alias itaque architecto rem aliquam, dicta corporis officia aliquid quidem quos.</p>
+
+    </div>
+   
+    <footer>
+        <p>Rodape</p>
+    </footer>
+</body>
+</html>
