@@ -1,0 +1,63 @@
+header{
+    border: 1px solid red;
+    background: #294C71;
+    
+}
+
+#cabecalio{   
+    margin-left: 250px;
+    margin-top: 20px;
+    background: #294C71 url(imagens/logo.png) no-repeat;
+    width: 152px;
+    height: 90px;       
+    
+}
+
+#mapa{
+    background: url(imagens/detalhe-topo.png);
+    display: flex;
+    float: right;
+    width: 176px;
+    height: 176px;
+}
+
+
+#menu {
+    display: flex;
+    margin-left: 200px;
+    text-decoration: none;
+    
+   
+    
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+
+#menu a{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background: #AF002F url(imagens/divisor.png) repeat-y;
+   
+    
+     
+    
+}
+
+#menu a:hover{
+    background: #E10037 ;
+}
+
+#predios{
+    background: #294C71 url(imagens/fundo.png) repeat left bottom;  
+    height: 80px;
+
+}
+
+    
+
