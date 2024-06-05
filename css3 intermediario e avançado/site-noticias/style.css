@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 header{
     background: #294C71;
     
@@ -73,6 +76,10 @@ img{
 
 }
 
+main{
+    background-color: white;
+}
+
 .container2{
     background-color: white;
     width: 900px;
@@ -83,27 +90,110 @@ img{
 
 #menu-entrevistas{
     
-    border: 1px solid red;
+   
     width: 200px;
     height: 350px;
     margin: 5px;
+    padding-top: 5px;
+    background: url(imagens/fundo-caixa.png);   
   
 }
 
-#ultimas-entrevistas{    
-    border: 1px solid red;
+#menu-entrevistas h2{
+    background-color: #294C71;
+    width: 180px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 3px;
+    line-height: 2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#menu-entrevistas ul{
+    background-color: white;
+    list-style-type: none;
+    width: 140px;
+    height: 280px;
+    margin-left: 10px;
+    
+    
+
+}
+
+#menu-entrevistas li{
+    padding: 7px;
+    
+    
+
+}
+
+#menu-entrevistas a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+
+}
+
+#ultimas-entrevistas{   
     width: 300px;
     height: 300px;
     margin: 5px;
+    padding-top: 5px;
+    background: url(imagens/fundo-caixa.png);
+       
+}
+
+#ultimas-entrevistas h3{
+    background-color: #AF002F;
+    width: 250px;
+    padding: 3px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.titulo-azul{
+
+    background-color: #294C71;
+    width: 280px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 3px;
+    line-height: 2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ima-topo{
+    margin-left: 5px;
+    margin-top: 0;
+    width: 100%;
+    max-width: 290px;
+    height: 100%;
+    max-height: 200px;
     
 }
 
 
 #destaques{
-    border: 1px solid red;
     width: 300px;
     height: 300px;
     margin: 5px;
+    padding-top: 5px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+#destaques h3{
+    background-color: #AF002F;
+    width: 140px;
+    padding: 3px;
+    margin-bottom: 0;
+    margin-left: 5px;
 }
 
 
