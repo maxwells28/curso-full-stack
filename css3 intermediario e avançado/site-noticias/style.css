@@ -99,6 +99,12 @@ main{
   
 }
 
+#menu-entrevistas a:hover{
+    background-color: #294C71;
+    color: white;
+    
+}
+
 #menu-entrevistas h2{
     background-color: #294C71;
     width: 180px;
@@ -130,13 +136,11 @@ main{
 }
 
 #menu-entrevistas a{
-    
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: bold;
-    
-    
+        
 
 }
 
@@ -196,7 +200,31 @@ main{
     margin-left: 5px;
 }
 
+.leia-mais{
+   
+    margin: 0;
+    width: 300px;
+    height: auto;
+    padding-top: 5px;
+    background: url(imagens/fundo-caixa.png) repeat-x;
+  
+}
+.leia-mais p{ 
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 100%;
+    max-width: 290px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+        
+    }
 
+    .leia-mais a{
+        color: #AF002F; 
+        font-size: 18px;
+    }
 
 
     
