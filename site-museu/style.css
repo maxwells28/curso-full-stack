@@ -1,9 +1,12 @@
 body{
     background-color: white;
+    min-width: 250px;
+   
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+    
     
     
 }
@@ -14,42 +17,39 @@ header{
     height: 150px;
     background-image:url(img/fundo.png);
 }
-#link-museu {  
-    border: 1px solid red;
-    width: 350px;
+
+ul{
     display: flex;
     flex-wrap: nowrap;
-    
-    
-    
+    flex-direction: row;      
+    margin-right: 80PX; 
+    justify-content: center;
+        
 }
-
-
-.menu ul{
-    
-    margin-right: 50px;
-    padding: 20px; 
-    display: flex;
-    flex-direction: row;
+#link-museu {
+     
     flex-wrap: nowrap;
-    justify-content: flex-end;
-    font-size: 0.4em ;
+    margin-right: 200px;
+    font-size: 1em;
     
-    
+         
+}
+#link-museu a:hover{
+    text-decoration: none;
+    color: #A86E13;
 }
 
-li {
-    
+li {    
     color: #A86E13;
     list-style-type: none;
-    
+    font-size: 0.35em;     
 }
 
 a{
     margin: 10px;
     color:#A86E13;
     text-decoration: none;
-    
+      
 }
 
 a:hover{
@@ -57,5 +57,25 @@ a:hover{
     text-decoration: underline;
 }
 span{
-    color: white;
+    color: #F4F2EC;
+}
+main{
+    border: 1px solid red;
+    width:auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+img{      
+   margin-top: -60px;
+   
+      
+}
+.depoimento{
+    
 }
